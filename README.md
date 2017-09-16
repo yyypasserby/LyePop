@@ -1,8 +1,18 @@
-It is our practical train in the sophomore. The aim is to train our
-ability to program in a group.
-The project is about making a chat program like QQ, including the
-software on the customer and the program running on the server.
-To solve this problem, we use the TCP between the customer and the server to
-make the login information transferred safely, and to the chat info between the customers, we use UDP to make a large amount of info could be transferred.
-To conclude, it is a really good experience to me, and I enjoyed a very
-happy time.
+LyePop: Instant Messenger
+========================
+
+Messenger on Ubuntu
+
+Date: 2013.08 - 2013.09
+
+## Work
+
+1. Built the multi-threading client using pthread to prevent other logic components from blocking the UI threads
+2. Designed and implemented a peer-to-peer communication mechanism among users to reduce the load on the server
+
+## Requirements
+
+- MySql(Server Only)
+- gtk2.0
+- pthread
+- ubuntu-notify
